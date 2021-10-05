@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './Posts.css'
-
+import Layout from '../../components/Layout/Layout'
 import Post from '../../components/Post/Post'
 import { getPosts } from '../../services/posts'
 
@@ -78,4 +78,4 @@ const Posts = () => {
   )
 }
 
-export default Products
+export default Posts
