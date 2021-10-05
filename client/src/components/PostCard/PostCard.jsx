@@ -11,3 +11,5 @@ const PostCard = (props) => {
     </div>
   )
 }
+
+export default PostCard
