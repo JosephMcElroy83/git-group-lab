@@ -54,7 +54,7 @@ const Posts = () => {
   //   setApplySort(true)
   // }
 
-  const handleSubmit = (event) => event.preventDefault()
+  // const handleSubmit = (event) => event.preventDefault()
 
   return (
     <Layout>
