@@ -1,5 +1,4 @@
 import "./App.css";
-import PostCards from "./components/PostCards/PostCards";
 import { Route, Switch } from "react-router-dom";
 import Home from "./screens/Home/Home";
 import Posts from "./screens/Posts/Posts";
