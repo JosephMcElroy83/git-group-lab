@@ -12,13 +12,13 @@ function App() {
     <>
       <div className="App">Home</div>
       <Switch>
-        <Route path="/" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/posts" component={Posts} />
         <Route exact path="/create-post" component={CreatePost} />
         <Route exact path="/posts/:id/edit" component={EditPost} />
         <Route exact path="/posts/:id" component={DetailPost} />
       </Switch>
-      <PostCards />
+
       <div className="footer"></div>
     </>
   );
