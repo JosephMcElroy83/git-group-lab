@@ -21,7 +21,7 @@ const PostCards = () => {
         <PostCard
           _id={post._id}
           tite={post.title}
-          img={post.img}
+          img='https://ca.slack-edge.com/T0351JZQ0-UL0DJMEQN-cab010c5c99c-72'
           status={post.status}
           author={post.author}
           key={index}

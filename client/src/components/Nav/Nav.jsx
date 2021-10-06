@@ -9,7 +9,7 @@ const Nav = () => {
         <NavLink className="logo" to="/">SEI Post, Man!</NavLink>
         <div className="links">
           <NavLink className="link" to="/posts">Posts, Man</NavLink>
-          <NavLink className="link" to="/add-product">Add Posts, Man</NavLink>
+          <NavLink className="link" to="/add-post">Add Posts, Man</NavLink>
         </div>
       </div>
     </nav>
