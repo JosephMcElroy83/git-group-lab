@@ -25,7 +25,7 @@ const PostDetail = () => {
 
     return (
             <div className="post-detail">
-                {/* <img className="post-detail-image" src={post.img} alt={post.title} /> */}
+                <img className="post-detail-image" src='https://ca.slack-edge.com/T0351JZQ0-UL0DJMEQN-cab010c5c99c-72' alt={post.title} />
                 <div className="detail">
                     <div className="name">{post.title}</div>
                  
