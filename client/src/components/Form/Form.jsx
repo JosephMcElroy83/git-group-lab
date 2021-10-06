@@ -35,6 +35,7 @@ const Form = (props) => {
   return (
     <div className="form-div">
       <form className="form" onSubmit={handleSubmit}>
+      <div className="do-something">
       <label for="title-input"/>
       <input type="text"
         id="title-input"
@@ -82,7 +83,7 @@ const Form = (props) => {
         <button type='submit' className='submit-button'>
         submit
         </button>
-
+        </div>
       </form>
     </div>
   )

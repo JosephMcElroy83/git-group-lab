@@ -5,7 +5,7 @@ export default function CreatePost() {
   return (
       <Layout >
       
-    <div>
+    <div className="edit-form">
       <Form />
     </div>
       </Layout>
