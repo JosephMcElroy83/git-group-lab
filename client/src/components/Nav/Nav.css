@@ -1,0 +1,20 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(122, 121, 155);
+  border-bottom: rgb(18, 19, 15) solid 3px;
+  color: rgb(3, 3, 14);
+  text-align: center;
+}
+.link {
+  color:aquamarine;
+}
+.logo{
+  color: aquamarine;
+}
